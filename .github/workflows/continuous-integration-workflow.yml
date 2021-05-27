@@ -49,4 +49,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: pshutchinson/dotnettemplate:latest
+        tags: pshutchinson/dotnettemplate:latest, pshutchinson/dotnettemplate:${git_hash}
